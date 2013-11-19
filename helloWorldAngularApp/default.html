@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>helloWorldAngularApp</title>
+   
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <script src="js/jquery-1.8.0-windows8-ready.js"></script>
+    <!--<script src="js/jquery.2.0.3.js"></script>-->
+    <!--<script src="js/jquery-w8-1.8.2.min.js"></script>-->
+    <!--<script src="js/jquery-w8.js"></script>-->
+    <!--<script type="text/javascript">
+        jQuery.isUnsafe = true;
+    </script>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/vsrController.js"></script>
+    <script src="js/vdController.js"></script>-->
+    <!--<script src="js/jquery-2.0.3.min.js"></script>-->
+    <!--<script src="js/jquery.2.0.3-s.js"></script>-->
+    <!--<script type="text/javascript">jQuery.isUnsafe = true;</script>-->
+    <!-- Angular Version 1.2.0 -->
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/vsrController.js"></script>
+    <script src="js/vdController.js"></script>
+    <script src="js/app.js"></script>
+    <!-- helloWorldAngularApp references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script>
+        window.onload = function () {
+            //angular.bootstrap(document, ["helloAngularApp"]);
+            //        document.addEventListener('deviceready',function(){
+            //          angular.bootstrap(document,["simpleApp"]);
+            //        },false);
+        };
+    </script>    
+</head>
+<body>
+    <h1> Hello World Angular App</h1>
+    <a href="#/search">Search</a>
+    <a href="#/detail">Detail</a>
+    <div ng-view></div>
+</body>
+</html>
